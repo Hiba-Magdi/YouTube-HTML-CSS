@@ -1,0 +1,15 @@
+p {
+  font-family: Roboto, Arial;
+  /*the sytnax here with a comma called a font stack let st up a backup font if Roboto failed to load from google*/
+
+  margin-top: 0;
+  /*pergraphs by default come with margin at the top and at the bottom , instad of removing them individually , ae target all the pergraphs on the page */
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+  padding-top:80px;
+  padding-left:96px;
+  padding-right:24px;
+  background-color:rgb(248,248,248);
+}

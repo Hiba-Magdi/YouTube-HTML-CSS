@@ -1,0 +1,36 @@
+.sidebar{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:55px;
+    background-color:white;
+    width:72px;
+    z-index:2;
+    padding-top:5px;
+    cursor:pointer;
+
+
+}
+.sidebar-link{
+   
+    height:74px;/*without any content in the divs they have a height of 0*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+   
+
+}
+.sidebar-link:hover{
+    background-color:rgb(235,235,235);
+}
+.sidebar img{/*we are targeting all imges inside sidebar-link*/
+    height:24px;
+    margin-bottom:4px;
+
+}
+.sidebar-link div{
+    font-family:Roborto,Arial;
+    font-size:10px;
+
+}
